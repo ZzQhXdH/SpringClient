@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <bitmap android:src="@drawable/ic_sub"/>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <bitmap android:src="@drawable/ic_sub"/>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorShadow"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_debug_quit"
+        android:title="@string/debug_menu_title_quit"
+        app:showAsAction="withText" />
+
+    <item android:title="@string/debug_menu_title_quit_app"
+        android:id="@+id/id_debug_menu_quit_app"
+        app:showAsAction="withText"/>
+</menu>

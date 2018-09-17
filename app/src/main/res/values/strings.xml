@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SpringClient</string>
+
+    <string name="main_button_up">上一页</string>
+    <string name="main_button_down">下一页</string>
+
+    <string name="item_text_view_shadow">无货</string>
+    <string name="popup_pay_button_text">取消付款</string>
+
+    <string name="popup_login_title">补货管理登陆</string>
+    <string name="popup_login_id_hint">请输入账号</string>
+    <string name="popup_login_id_pass_word_hint">请输入密码</string>
+    <string name="popup_login_cancel">取消</string>
+    <string name="popup_login_ok">确定</string>
+
+    <string name="debug_button_reset_goods_type">复位货道</string>
+    <string name="debug_button_setting_goods_type">设置货道</string>
+    <string name="debug_menu_title_quit">退出</string>
+    <string name="debug_menu_title_quit_app">退出整个系统</string>
+    <string name="debug_button_acquire_goods_type">补货清单</string>
+    <string name="debug_button_goods_type_finish">补货完成</string>
+
+    <string name="debug_number_picker_row">行:</string>
+    <string name="debug_number_picker_col">列:</string>
+    <string name="debug_button_test">测试电机</string>
+
+</resources>

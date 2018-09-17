@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x150"
+    android:background="@drawable/shape_item_debug_recycler_background"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/x40"
+        android:textColor="@android:color/black"
+        android:text="牛奶(2-1)"
+        android:id="@+id/id_item_debug_recycler_view_text_view_name"
+        />
+
+    <Button
+        android:layout_width="@dimen/x150"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_add"
+        android:id="@+id/id_item_debug_recycler_view_button_add"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/x40"
+        android:textColor="@android:color/black"
+        android:text="5"
+        android:id="@+id/id_item_debug_recycler_view_text_view_number"
+        />
+
+    <Button
+        android:layout_width="@dimen/x150"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_sub"
+        android:id="@+id/id_item_debug_recycler_view_button_sub"
+        />
+
+</LinearLayout>

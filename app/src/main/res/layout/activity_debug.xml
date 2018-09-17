@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/x10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginBottom="@dimen/y20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_debug_button_reset_goods_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_x200"
+            android:text="@string/debug_button_reset_goods_type"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40" />
+
+        <Button
+            android:id="@+id/id_debug_button_setting_goods_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_x200"
+            android:text="@string/debug_button_setting_goods_type"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40" />
+
+        <Button
+            android:id="@+id/id_debug_button_acquire_goods_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_x200"
+            android:text="@string/debug_button_acquire_goods_type"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40" />
+
+        <Button
+            android:id="@+id/id_debug_button_goods_type_finish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_x200"
+            android:text="@string/debug_button_goods_type_finish"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/y10"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/debug_number_picker_row"
+            android:gravity="center"
+            android:textSize="@dimen/x40"
+            android:textColor="@android:color/black" />
+
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginEnd="@dimen/x10"
+            android:id="@+id/id_debug_number_picker_row"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/debug_number_picker_col"
+            android:gravity="center"
+            android:textSize="@dimen/x40"
+            android:textColor="@android:color/black" />
+
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginEnd="@dimen/x10"
+            android:id="@+id/id_debug_number_picker_col"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_x200"
+            android:text="@string/debug_button_test"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40"
+            android:id="@+id/id_debug_button_test"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_debug_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

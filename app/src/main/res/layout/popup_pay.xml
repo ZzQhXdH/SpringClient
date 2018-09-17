@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x800"
+    android:layout_height="@dimen/y1200"
+    android:background="@drawable/shape_popup_pay_background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/y500"
+        android:layout_marginStart="@dimen/x150"
+        android:layout_marginTop="@dimen/x150">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_pay_image_view" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:indicatorName="LineSpinFadeLoaderIndicator"
+            app:indicatorColor="@android:color/holo_orange_light"
+            android:id="@+id/id_popup_pay_loading" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x200"
+        android:layout_marginTop="@dimen/x50"
+        android:textSize="@dimen/x60"
+        android:textColor="@android:color/black"
+        android:text="牛奶:20"
+        android:id="@+id/id_popup_pay_text_view_name"
+        android:gravity="center" />
+
+    <Button
+        android:layout_marginTop="@dimen/y50"
+        android:layout_width="@dimen/x350"
+        android:layout_height="@dimen/y150"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x50"
+        android:background="@drawable/selector_main_button"
+        android:id="@+id/id_popup_pay_button_cancel"
+        android:text="@string/popup_pay_button_text" />
+
+</LinearLayout>

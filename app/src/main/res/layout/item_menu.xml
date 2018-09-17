@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x450"
+    android:layout_height="@dimen/y550"
+    android:orientation="vertical"
+    android:id="@+id/id_item_linear_layout">
+
+    <FrameLayout
+        android:layout_width="@dimen/x450"
+        android:layout_height="@dimen/y450"
+        android:elevation="@dimen/x100">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/id_item_image_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_shadow_50"
+            android:text="@string/item_text_view_shadow"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x80"
+            android:gravity="center"
+            android:id="@+id/id_item_text_view_shadow"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:indicatorName="LineSpinFadeLoaderIndicator"
+            app:indicatorColor="@android:color/darker_gray"
+            android:id="@+id/id_item_loading"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/x30"
+        android:id="@+id/id_item_text_view_name"
+        android:text="牛奶"
+        />
+
+</LinearLayout>
